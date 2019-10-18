@@ -7,9 +7,7 @@ def unsafe?(speed)
 end
 unsafe?(69)
 
-require 'pry'
 def not_safe?(speed)
 	 speed<=39 or speed>=61 ? true : false
 end
-not_safe?(55)
-binding.pry 
+#not_safe?(55)
